@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP DBF310-13
+D Bridge Rectifiers Bridge Rectifier
+K
+F https://www.diodes.com/assets/Datasheets/DBF310.pdf
+$ENDCMP
+#
+$CMP KG_DELLS1.22-JGKH-24
+D Standard LEDs - SMD Green TOPLED E 1608
+K
+F https://dammedia.osram.info/media/resource/hires/osram-dam-5423212/KG%20DELLS1.22_EN.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,80 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DBF310-13
+#/1451303/376231/2.47/4/4/Bridge Rectifier
+DEF DBF310-13 BR 0 30 Y Y 1 F N
+F0 "BR" 850 300 50 H V L CNN
+F1 "DBF310-13" 850 200 50 H V L CNN
+F2 "DBF31013" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DBF310.pdf" 850 0 50 H I L CNN
+F4 "Bridge Rectifiers Bridge Rectifier" 850 -100 50 H I L CNN "Description"
+F5 "1.5" 850 -200 50 H I L CNN "Height"
+F6 "621-DBF310-13" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DBF310-13?qs=fAHHVMwC%252Bbgh%2FF6N5%2FLeeA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DBF310-13" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 1000 0 200 L 50 50 0 0 P
+X ~_1 2 1000 -100 200 L 50 50 0 0 P
+X - 3 0 -100 200 R 50 50 0 0 P
+X ~_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KG_DELLS1.22-JGKH-24
+#/4642125/376231/2.47/2/4/LED
+DEF KG_DELLS1.22-JGKH-24 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "KG_DELLS1.22-JGKH-24" 500 250 50 H V L BNN
+F2 "KGDELLS122JGKH24" 500 150 50 H I L BNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5423212/KG%20DELLS1.22_EN.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD Green TOPLED E 1608" 500 -50 50 H I L BNN "Description"
+F5 "" 500 -150 50 H I L BNN "Height"
+F6 "720-KGDELLS122A4849" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/KG-DELLS122-JGKH-24?qs=XeJtXLiO41QWpmNP80zu3g%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "OSRAM" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "KG DELLS1.22-JGKH-24" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~ 1 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#End Library
